@@ -1,132 +1,342 @@
 {
- "updated": "2026-11-08 20:03 UTC",
+ "updated": "2026-11-08 20:11 UTC",
  "matchups": [
   {
    "a": "Black-Green Wolves",
    "b": "Black-Red Goblins",
    "wins": {
-    "Black-Green Wolves": 0,
-    "Black-Red Goblins": 0
+    "Black-Green Wolves": 14,
+    "Black-Red Goblins": 6
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    5604,
+    2560,
+    2311,
+    1365,
+    2311,
+    4996,
+    2798,
+    1748,
+    22153,
+    1349,
+    2621,
+    747,
+    984,
+    1905,
+    924,
+    1911,
+    959,
+    4336,
+    1590,
+    955
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Green Wolves",
    "b": "Green-Blue Elves (Entwurf)",
    "wins": {
-    "Black-Green Wolves": 0,
-    "Green-Blue Elves (Entwurf)": 0
+    "Black-Green Wolves": 10,
+    "Green-Blue Elves (Entwurf)": 10
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    6612,
+    2116,
+    3102,
+    4431,
+    6341,
+    21496,
+    1161,
+    2785,
+    1755,
+    2174,
+    1876,
+    1645,
+    1513,
+    1764,
+    1290,
+    5605,
+    679,
+    3223,
+    2617,
+    1399
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Green Wolves",
    "b": "Red-White Dwarves",
    "wins": {
-    "Black-Green Wolves": 0,
-    "Red-White Dwarves": 0
+    "Black-Green Wolves": 12,
+    "Red-White Dwarves": 8
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    3989,
+    2103,
+    791,
+    4815,
+    1544,
+    8291,
+    2779,
+    1697,
+    1195,
+    1452,
+    1427,
+    1145,
+    835,
+    1230,
+    1165,
+    1692,
+    2295,
+    1106,
+    1747,
+    2034
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Green Wolves",
    "b": "White-Blue Humans",
    "wins": {
-    "Black-Green Wolves": 0,
-    "White-Blue Humans": 0
+    "Black-Green Wolves": 19,
+    "White-Blue Humans": 1
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    5933,
+    3053,
+    2656,
+    6368,
+    860,
+    2251,
+    779,
+    1402,
+    1160,
+    2318,
+    1793,
+    762,
+    72024,
+    4667,
+    898,
+    782,
+    1076,
+    2896,
+    1310,
+    720
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Red Goblins",
    "b": "Green-Blue Elves (Entwurf)",
    "wins": {
-    "Black-Red Goblins": 0,
-    "Green-Blue Elves (Entwurf)": 0
+    "Black-Red Goblins": 8,
+    "Green-Blue Elves (Entwurf)": 12
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    9529,
+    7159,
+    6470,
+    2747,
+    2465,
+    2272,
+    3380,
+    3002,
+    2318,
+    1921,
+    3227,
+    2103,
+    1375,
+    1501,
+    1649,
+    1091,
+    1146,
+    1130,
+    1877,
+    1291
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Red Goblins",
    "b": "Red-White Dwarves",
    "wins": {
-    "Black-Red Goblins": 0,
-    "Red-White Dwarves": 0
+    "Black-Red Goblins": 12,
+    "Red-White Dwarves": 8
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    2738,
+    2407,
+    2311,
+    2033,
+    762,
+    1052,
+    2044,
+    2502,
+    1768,
+    1255,
+    921,
+    531,
+    950,
+    1525,
+    1073,
+    955,
+    927,
+    894,
+    776,
+    765
+   ],
+   "errors": 0
   },
   {
    "a": "Black-Red Goblins",
    "b": "White-Blue Humans",
    "wins": {
-    "Black-Red Goblins": 0,
-    "White-Blue Humans": 0
+    "Black-Red Goblins": 15,
+    "White-Blue Humans": 5
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    8028,
+    5999,
+    3242,
+    1599,
+    3359,
+    6015,
+    3065,
+    1310,
+    2739,
+    3839,
+    7417,
+    1966,
+    2359,
+    2272,
+    1427,
+    3381,
+    969,
+    1937,
+    1826,
+    2047
+   ],
+   "errors": 0
   },
   {
    "a": "Green-Blue Elves (Entwurf)",
    "b": "Red-White Dwarves",
    "wins": {
-    "Green-Blue Elves (Entwurf)": 0,
-    "Red-White Dwarves": 0
+    "Green-Blue Elves (Entwurf)": 7,
+    "Red-White Dwarves": 13
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    6105,
+    2161,
+    3192,
+    33479,
+    1567,
+    1480,
+    3062,
+    2593,
+    1488,
+    2157,
+    1595,
+    2199,
+    2225,
+    2925,
+    1767,
+    2114,
+    2122,
+    3059,
+    1734,
+    10683
+   ],
+   "errors": 0
   },
   {
    "a": "Green-Blue Elves (Entwurf)",
    "b": "White-Blue Humans",
    "wins": {
-    "Green-Blue Elves (Entwurf)": 0,
-    "White-Blue Humans": 0
+    "Green-Blue Elves (Entwurf)": 15,
+    "White-Blue Humans": 5
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    3357,
+    7402,
+    2551,
+    2795,
+    2310,
+    3113,
+    1562,
+    1773,
+    1321,
+    3052,
+    1211,
+    1384,
+    1229,
+    3350,
+    2033,
+    957,
+    718,
+    1303,
+    2743,
+    2810
+   ],
+   "errors": 0
   },
   {
    "a": "Red-White Dwarves",
    "b": "White-Blue Humans",
    "wins": {
-    "Red-White Dwarves": 0,
-    "White-Blue Humans": 0
+    "Red-White Dwarves": 14,
+    "White-Blue Humans": 6
    },
    "draws": 0,
-   "games": 0,
-   "ms": [],
-   "errors": 1
+   "games": 20,
+   "ms": [
+    6826,
+    1562,
+    2918,
+    3375,
+    3597,
+    3854,
+    3362,
+    1298,
+    3492,
+    891,
+    4960,
+    2308,
+    2005,
+    1139,
+    2423,
+    572,
+    1582,
+    2980,
+    740,
+    965
+   ],
+   "errors": 0
   }
  ],
  "overall": {
-  "Black-Green Wolves": 0,
-  "Black-Red Goblins": 0,
-  "Green-Blue Elves (Entwurf)": 0,
-  "Red-White Dwarves": 0,
-  "White-Blue Humans": 0
+  "Black-Green Wolves": 0.6875,
+  "Black-Red Goblins": 0.5125,
+  "Green-Blue Elves (Entwurf)": 0.55,
+  "Red-White Dwarves": 0.5375,
+  "White-Blue Humans": 0.2125
  }
 }
