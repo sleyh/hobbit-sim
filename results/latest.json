@@ -1,0 +1,132 @@
+{
+ "updated": "2026-11-08 20:03 UTC",
+ "matchups": [
+  {
+   "a": "Black-Green Wolves",
+   "b": "Black-Red Goblins",
+   "wins": {
+    "Black-Green Wolves": 0,
+    "Black-Red Goblins": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Green Wolves",
+   "b": "Green-Blue Elves (Entwurf)",
+   "wins": {
+    "Black-Green Wolves": 0,
+    "Green-Blue Elves (Entwurf)": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Green Wolves",
+   "b": "Red-White Dwarves",
+   "wins": {
+    "Black-Green Wolves": 0,
+    "Red-White Dwarves": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Green Wolves",
+   "b": "White-Blue Humans",
+   "wins": {
+    "Black-Green Wolves": 0,
+    "White-Blue Humans": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Red Goblins",
+   "b": "Green-Blue Elves (Entwurf)",
+   "wins": {
+    "Black-Red Goblins": 0,
+    "Green-Blue Elves (Entwurf)": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Red Goblins",
+   "b": "Red-White Dwarves",
+   "wins": {
+    "Black-Red Goblins": 0,
+    "Red-White Dwarves": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Black-Red Goblins",
+   "b": "White-Blue Humans",
+   "wins": {
+    "Black-Red Goblins": 0,
+    "White-Blue Humans": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Green-Blue Elves (Entwurf)",
+   "b": "Red-White Dwarves",
+   "wins": {
+    "Green-Blue Elves (Entwurf)": 0,
+    "Red-White Dwarves": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Green-Blue Elves (Entwurf)",
+   "b": "White-Blue Humans",
+   "wins": {
+    "Green-Blue Elves (Entwurf)": 0,
+    "White-Blue Humans": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  },
+  {
+   "a": "Red-White Dwarves",
+   "b": "White-Blue Humans",
+   "wins": {
+    "Red-White Dwarves": 0,
+    "White-Blue Humans": 0
+   },
+   "draws": 0,
+   "games": 0,
+   "ms": [],
+   "errors": 1
+  }
+ ],
+ "overall": {
+  "Black-Green Wolves": 0,
+  "Black-Red Goblins": 0,
+  "Green-Blue Elves (Entwurf)": 0,
+  "Red-White Dwarves": 0,
+  "White-Blue Humans": 0
+ }
+}
