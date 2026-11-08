@@ -1,23 +1,23 @@
 # Simulationsergebnisse
 
-Stand: 2026-11-08 20:11 UTC · Forge KI gegen KI · Zeile = Siegquote dieses Decks gegen die Spalte
+Stand: 2026-11-08 20:26 UTC · Forge KI gegen KI · Zeile = Siegquote dieses Decks gegen die Spalte
 
 | Deck | Black-Green Wolves | Black-Red Goblins | Green-Blue Elves (Entwurf) | Red-White Dwarves | White-Blue Humans | Gesamt |
 |---|---|---|---|---|---|---|
-| Black-Green Wolves | – | 70% (14/20) | 50% (10/20) | 60% (12/20) | 95% (19/20) | **69%** |
-| Black-Red Goblins | 30% (6/20) | – | 40% (8/20) | 60% (12/20) | 75% (15/20) | **51%** |
-| Green-Blue Elves (Entwurf) | 50% (10/20) | 60% (12/20) | – | 35% (7/20) | 75% (15/20) | **55%** |
-| Red-White Dwarves | 40% (8/20) | 40% (8/20) | 65% (13/20) | – | 70% (14/20) | **54%** |
-| White-Blue Humans | 5% (1/20) | 25% (5/20) | 25% (5/20) | 30% (6/20) | – | **21%** |
+| Black-Green Wolves | – | 68% (137/200) | 68% (137/200) | 48% (95/200) | 74% (148/200) | **65%** |
+| Black-Red Goblins | 32% (63/200) | – | 50% (99/200) | 46% (92/200) | 70% (141/200) | **49%** |
+| Green-Blue Elves (Entwurf) | 32% (63/200) | 50% (101/200) | – | 42% (85/200) | 66% (132/200) | **48%** |
+| Red-White Dwarves | 52% (105/200) | 54% (108/200) | 57% (115/200) | – | 74% (148/200) | **60%** |
+| White-Blue Humans | 26% (52/200) | 30% (59/200) | 34% (68/200) | 26% (52/200) | – | **29%** |
 
 ## Rangliste
 
 | Platz | Deck | Siegquote |
 |---|---|---|
-| 1 | Black-Green Wolves | 69% |
-| 2 | Green-Blue Elves (Entwurf) | 55% |
-| 3 | Red-White Dwarves | 54% |
-| 4 | Black-Red Goblins | 51% |
-| 5 | White-Blue Humans | 21% |
+| 1 | Black-Green Wolves | 65% |
+| 2 | Red-White Dwarves | 60% |
+| 3 | Black-Red Goblins | 49% |
+| 4 | Green-Blue Elves (Entwurf) | 48% |
+| 5 | White-Blue Humans | 29% |
 
 Unentschieden (Zeitlimit): 0 · Fehler/abgebrochene Spiele: 0
