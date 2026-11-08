@@ -1,0 +1,118 @@
+name: Simulate matchups
+
+on:
+  workflow_dispatch:
+    inputs:
+      games:
+        description: "Games per matchup"
+        default: "20"
+      decks:
+        description: "Deck files to include (comma-separated names without .dck, empty = all)"
+        default: ""
+  push:
+    paths:
+      - "decks/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build-forge:
+    runs-on: ubuntu-latest
+    outputs:
+      forge_sha: ${{ steps.sha.outputs.sha }}
+    steps:
+      - id: sha
+        run: echo "sha=$(git ls-remote https://github.com/Card-Forge/forge HEAD | cut -f1)" >> "$GITHUB_OUTPUT"
+      - id: cache
+        uses: actions/cache@v4
+        with:
+          path: forge-dist
+          key: forge-${{ steps.sha.outputs.sha }}
+      - if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+      - if: steps.cache.outputs.cache-hit != 'true'
+        name: Build Forge
+        run: |
+          git clone --depth 1 https://github.com/Card-Forge/forge forge-src
+          cd forge-src
+          mvn -B -q -pl forge-gui-desktop -am package -DskipTests
+          cd ..
+          mkdir -p forge-dist
+          cp forge-src/forge-gui-desktop/target/forge-gui-desktop-*-jar-with-dependencies.jar forge-dist/forge.jar
+          cp -r forge-src/forge-gui/res forge-dist/res
+      - uses: actions/upload-artifact@v4
+        with:
+          name: forge-dist
+          path: forge-dist
+          retention-days: 1
+
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      pairs: ${{ steps.p.outputs.pairs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: python3 scripts/pairs.py "${{ github.event.inputs.decks }}" >> "$GITHUB_OUTPUT"
+
+  simulate:
+    needs: [build-forge, plan]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        pair: ${{ fromJson(needs.plan.outputs.pairs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/download-artifact@v4
+        with:
+          name: forge-dist
+          path: forge-dist
+      - name: Run games
+        env:
+          GAMES: ${{ github.event.inputs.games || '20' }}
+        run: |
+          mkdir -p out
+          cd forge-dist
+          timeout 5h java -Xmx3g -Djava.awt.headless=true -jar forge.jar sim \
+            -d "$GITHUB_WORKSPACE/decks/${{ matrix.pair.a }}.dck" "$GITHUB_WORKSPACE/decks/${{ matrix.pair.b }}.dck" \
+            -n "$GAMES" -c 300 -q 2>&1 | tee "$GITHUB_WORKSPACE/out/log.txt" || true
+          cd ..
+          python3 scripts/parse.py "${{ matrix.pair.a }}" "${{ matrix.pair.b }}" out/log.txt > "out/${{ matrix.pair.id }}.json"
+          cat "out/${{ matrix.pair.id }}.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: result-${{ matrix.pair.id }}
+          path: out/${{ matrix.pair.id }}.json
+
+  report:
+    needs: simulate
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          path: parts
+          merge-multiple: true
+      - name: Build report
+        run: python3 scripts/report.py parts results
+      - name: Commit results
+        run: |
+          git config user.name "hobbit-sim bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results
+          git commit -m "Simulation results $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git pull --rebase
+          git push
