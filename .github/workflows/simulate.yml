@@ -84,7 +84,7 @@ jobs:
           mkdir -p out
           cd forge-dist
           timeout 5h java -Xmx3g -Djava.awt.headless=true -jar forge.jar sim \
-            -d "$GITHUB_WORKSPACE/decks/${{ matrix.pair.a }}.dck" "$GITHUB_WORKSPACE/decks/${{ matrix.pair.b }}.dck" \
+            -D "$GITHUB_WORKSPACE/decks" -d "${{ matrix.pair.a }}.dck" "${{ matrix.pair.b }}.dck" \
             -n "$GAMES" -c 300 -q 2>&1 | tee "$GITHUB_WORKSPACE/out/log.txt" || true
           cd ..
           python3 scripts/parse.py "${{ matrix.pair.a }}" "${{ matrix.pair.b }}" out/log.txt > "out/${{ matrix.pair.id }}.json"
