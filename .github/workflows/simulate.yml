@@ -34,7 +34,6 @@ jobs:
         with:
           distribution: temurin
           java-version: "17"
-          cache: maven
       - if: steps.cache.outputs.cache-hit != 'true'
         name: Build Forge
         run: |
@@ -97,7 +96,7 @@ jobs:
 
   report:
     needs: simulate
-    if: always()
+    if: ${{ always() && needs.simulate.result != 'skipped' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -107,7 +106,9 @@ jobs:
           path: parts
           merge-multiple: true
       - name: Build report
-        run: python3 scripts/report.py parts results
+        run: |
+          ls parts/*.json >/dev/null 2>&1 || { echo "no results"; exit 1; }
+          python3 scripts/report.py parts results
       - name: Commit results
         run: |
           git config user.name "hobbit-sim bot"
