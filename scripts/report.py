@@ -5,6 +5,11 @@ from datetime import datetime, timezone
 src, dst = sys.argv[1], sys.argv[2]
 os.makedirs(dst, exist_ok=True)
 parts = [json.load(open(p, encoding="utf-8")) for p in sorted(glob.glob(f"{src}/*.json"))]
+# keep earlier matchups that this run did not replay
+old = f"{dst}/latest.json"
+if os.path.exists(old):
+    new_keys = {frozenset((p["a"], p["b"])) for p in parts}
+    parts += [p for p in json.load(open(old, encoding="utf-8"))["matchups"] if frozenset((p["a"], p["b"])) not in new_keys]
 decks = sorted({p["a"] for p in parts} | {p["b"] for p in parts})
 stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
