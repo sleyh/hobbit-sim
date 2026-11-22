@@ -79,7 +79,7 @@ jobs:
           path: forge-dist
       - name: Run games
         env:
-          GAMES: ${{ github.event.inputs.games || '20' }}
+          GAMES: ${{ github.event.inputs.games || '30' }}
         run: |
           mkdir -p out
           cd forge-dist
