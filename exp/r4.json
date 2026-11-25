@@ -1,0 +1,8 @@
+{"X E0 base":[
+ {"name":"F1 Swords+Cliff4+YCP","cut":{"Stone by Sunlight":1,"Iron Hills":2,"Magnificent End":1},"add":{"Swords to Plowshares|LTC":1,"Clifftop Retreat|LTC":2,"You Cannot Pass!":1}},
+ {"name":"F2 F1+Joyous+Smite","cut":{"Stone by Sunlight":1,"Iron Hills":2,"Magnificent End":1,"Kíli the Resourceful":1,"Iron Hills Blacksmith":1},"add":{"Swords to Plowshares|LTC":1,"Clifftop Retreat|LTC":2,"You Cannot Pass!":1,"Fíli and Kíli, Joyous|HOC":1,"Smite the Deathless":1}}
+],
+"X W0 base":[
+ {"name":"Y1 GftT+WK","cut":{"Gnashing of Teeth":1,"Old Fat Spider":1},"add":{"Go for the Throat|LTC":1,"Witch-king of Angmar":1}},
+ {"name":"Y2 Y1+Cemetery","cut":{"Gnashing of Teeth":1,"Old Fat Spider":1,"Mirkwood":2},"add":{"Go for the Throat|LTC":1,"Witch-king of Angmar":1,"Woodland Cemetery|LTC":2}}
+]}
