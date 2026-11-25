@@ -1,0 +1,18 @@
+{"X D0 base":[
+ {"name":"D-C1 Flow2+Cliff","cut":{"Celebrate the Mountain-king":1,"Iron Hills":2},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2}},
+ {"name":"D-C2 +Glamdring","cut":{"Celebrate the Mountain-king":1,"Iron Hills":2,"Magnificent End":1},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2,"Glamdring, Foe-hammer|HOB":1}},
+ {"name":"D-C3 +Nori","cut":{"Celebrate the Mountain-king":1,"Iron Hills":2,"Magnificent End":1,"Iron Hills Blacksmith":1},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2,"Glamdring, Foe-hammer|HOB":1,"Nori, Teller of Tales|HOB":1}},
+ {"name":"D-C4 +Olorin","cut":{"Celebrate the Mountain-king":1,"Iron Hills":2,"Magnificent End":1,"Iron Hills Blacksmith":1,"Stone by Sunlight":1},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2,"Glamdring, Foe-hammer|HOB":1,"Nori, Teller of Tales|HOB":1,"Olórin's Searing Light|LTC":1}},
+ {"name":"D-C5 +Lances","cut":{"Celebrate the Mountain-king":1,"Iron Hills":2,"Magnificent End":1,"Iron Hills Blacksmith":1,"Kíli the Resourceful":1},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2,"Glamdring, Foe-hammer|HOB":1,"Nori, Teller of Tales|HOB":1,"Long-Lost Lances|HOC":1}},
+ {"name":"D-C6 +Snarl","cut":{"Celebrate the Mountain-king":1,"Iron Hills":4,"Magnificent End":1,"Iron Hills Blacksmith":1},"add":{"Flowering of the White Tree":1,"Clifftop Retreat|LTC":2,"Furycalm Snarl|LTC":2,"Glamdring, Foe-hammer|HOB":1,"Nori, Teller of Tales|HOB":1}}
+],
+"X W0 base":[
+ {"name":"W-V1 Feed","cut":{"Reverent Howl":1},"add":{"Feed the Swarm|LTC":1}},
+ {"name":"W-V2 Feed+Savvy","cut":{"Reverent Howl":1,"The Master of Lake-town":1},"add":{"Feed the Swarm|LTC":1,"Savvy Hunter|LTC":1}},
+ {"name":"W-V3 +FellBeast","cut":{"Reverent Howl":1,"The Master of Lake-town":1,"Gigantic Big Bear":1},"add":{"Feed the Swarm|LTC":1,"Savvy Hunter|LTC":1,"Fell Beast of Mordor|LTC":1}},
+ {"name":"W-V4 +Feed2","cut":{"Reverent Howl":2,"The Master of Lake-town":1,"Gigantic Big Bear":1},"add":{"Feed the Swarm|LTC":2,"Savvy Hunter|LTC":1,"Fell Beast of Mordor|LTC":1}},
+ {"name":"W-V5 BatCloud","cut":{"Gigantic Big Bear":1},"add":{"Dreaded Bat-Cloud|HOB":1}},
+ {"name":"W-V6 BentBlade","cut":{"Reverent Howl":1},"add":{"Crude Bent Blade|HOB":1}},
+ {"name":"W-V7 Cemetery","cut":{"Mirkwood":2},"add":{"Woodland Cemetery|LTC":2}},
+ {"name":"W-V8 Nighthowl","cut":{"Reverent Howl":1},"add":{"Nighthowl Pursuer|HOB":1}}
+]}
