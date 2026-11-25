@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix:
         pair: ${{ fromJson(needs.plan.outputs.pairs) }}
     steps:
