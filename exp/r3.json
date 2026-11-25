@@ -1,0 +1,26 @@
+{"X E0 base":[
+ {"name":"E1 Swords","cut":{"Stone by Sunlight":1},"add":{"Swords to Plowshares|LTC":1}},
+ {"name":"E2 Olorin","cut":{"Stone by Sunlight":1},"add":{"Olórin's Searing Light|LTC":1}},
+ {"name":"E3 2Smite","cut":{"Magnificent End":1,"Iron Hills Blacksmith":1},"add":{"Smite the Deathless":2}},
+ {"name":"E4 2Snarl","cut":{"Iron Hills":2},"add":{"Furycalm Snarl|LTC":2}},
+ {"name":"E5 ThorinKing","cut":{"Glóin the Mighty":1},"add":{"Thorin, King of Durin's Folk|HOC":1}},
+ {"name":"E6 EowynFK","cut":{"Fíli the Pathfinder":1},"add":{"Éowyn, Fearless Knight":1}},
+ {"name":"E7 GimliCaves","cut":{"Iron Hills Blacksmith":1},"add":{"Gimli of the Glittering Caves|LTC":1}},
+ {"name":"E8 FiliKiliJoy","cut":{"Kíli the Resourceful":1},"add":{"Fíli and Kíli, Joyous|HOC":1}},
+ {"name":"E9 Mithril","cut":{"Magnificent End":1},"add":{"Mithril Coat":1}},
+ {"name":"E10 Firebrand","cut":{"Magnificent End":1},"add":{"Ranger's Firebrand":1}},
+ {"name":"E11 YouCannotPass","cut":{"Magnificent End":1},"add":{"You Cannot Pass!":1}},
+ {"name":"E12 2Clifftop+","cut":{"Iron Hills":2},"add":{"Clifftop Retreat|LTC":2}}
+],
+"X W0 base":[
+ {"name":"X1 GftT-Gnash","cut":{"Gnashing of Teeth":1},"add":{"Go for the Throat|LTC":1}},
+ {"name":"X2 ChiefWilds-LBear","cut":{"Large Bear":1},"add":{"Chief of the Wilds|HOC":1}},
+ {"name":"X3 WK-Spider","cut":{"Old Fat Spider":1},"add":{"Witch-king of Angmar":1}},
+ {"name":"X4 Feed-Gnash","cut":{"Gnashing of Teeth":1},"add":{"Feed the Swarm|LTC":1}},
+ {"name":"X5 Lobelia-Master","cut":{"The Master of Lake-town":1},"add":{"Lobelia Sackville-Baggins":1}},
+ {"name":"X6 2Savvy-2Wargling","cut":{"Wargling":2},"add":{"Savvy Hunter|LTC":2}},
+ {"name":"X7 Willow-TBW","cut":{"Tom, Bert, and William":1},"add":{"Old Man Willow":1}},
+ {"name":"X8 FellBeast-Spider","cut":{"Old Fat Spider":1},"add":{"Fell Beast of Mordor|LTC":1}},
+ {"name":"X9 RiseWK-TBW","cut":{"Tom, Bert, and William":1},"add":{"Rise of the Witch-king":1}},
+ {"name":"X10 2ndChiefWarg-Master","cut":{"The Master of Lake-town":1},"add":{"The Chief Warg|HOB":1}}
+]}
