@@ -1,0 +1,7 @@
+{"X Y2 Y1+Cemetery":[
+ {"name":"Y3 Cemetery3","cut":{"Mirkwood":1},"add":{"Woodland Cemetery|LTC":1}},
+ {"name":"Y5 Feed","cut":{"Reverent Howl":1},"add":{"Feed the Swarm|LTC":1}},
+ {"name":"Y6 GftT2","cut":{"Reverent Howl":1},"add":{"Go for the Throat|LTC":1}},
+ {"name":"Y10 Cem3+GftT2","cut":{"Mirkwood":1,"Reverent Howl":1},"add":{"Woodland Cemetery|LTC":1,"Go for the Throat|LTC":1}},
+ {"name":"Y11 Cem3+GftT2+Feed","cut":{"Mirkwood":1,"Reverent Howl":2},"add":{"Woodland Cemetery|LTC":1,"Go for the Throat|LTC":1,"Feed the Swarm|LTC":1}}
+]}
