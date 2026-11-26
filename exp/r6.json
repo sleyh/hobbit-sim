@@ -1,0 +1,11 @@
+{"X DT test":[
+ {"name":"G1 Gandalf-Ori","cut":{"Ori, Keeper of Songs":1},"add":{"Gandalf, Goblins' Bane|HOB":1}},
+ {"name":"G2 Gandalf-MagEnd","cut":{"Magnificent End":1},"add":{"Gandalf, Goblins' Bane|HOB":1}},
+ {"name":"G3 Gandalf-Gloin","cut":{"Glóin the Mighty":1},"add":{"Gandalf, Goblins' Bane|HOB":1}}],
+ "X F1 Swords+Cliff4+YCP":[
+ {"name":"H1 F1+Gandalf-Ori","cut":{"Ori, Keeper of Songs":1},"add":{"Gandalf, Goblins' Bane|HOB":1}},
+ {"name":"H2 F1+Gandalf-Smith","cut":{"Iron Hills Blacksmith":1},"add":{"Gandalf, Goblins' Bane|HOB":1}}],
+ "X GB0 base":[
+ {"name":"K1 Gob+Gandalf-Raider","cut":{"Misty Mountains Raider":1},"add":{"Gandalf, Goblins' Bane|HOB":1}},
+ {"name":"K2 Gob+Gandalf-Bat","cut":{"Dreaded Bat-Cloud":1},"add":{"Gandalf, Goblins' Bane|HOB":1}},
+ {"name":"K3 Gob+Gandalf-Gloin","cut":{"Glóin the Mighty":1},"add":{"Gandalf, Goblins' Bane|HOB":1}}]}
