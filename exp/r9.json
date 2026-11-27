@@ -1,0 +1,18 @@
+{"X GB0c":[
+ {"name":"S1 SmaugImp-WickedWorm","cut":{"Smaug, Wicked Worm":1},"add":{"Smaug the Impenetrable|HOC":1}},
+ {"name":"S2 SmaugImp-Raider","cut":{"Misty Mountains Raider":1},"add":{"Smaug the Impenetrable|HOC":1}},
+ {"name":"S3 SmaugImp-Gloin","cut":{"Glóin the Mighty":1},"add":{"Smaug the Impenetrable|HOC":1}},
+ {"name":"S4 SmaugImp-Bat","cut":{"Dreaded Bat-Cloud":1},"add":{"Smaug the Impenetrable|HOC":1}}],
+ "X W0c":[
+ {"name":"B1 Beorn-BigBear","cut":{"Gigantic Big Bear":1},"add":{"Beorn the Fierce|HOB":1}},
+ {"name":"B2 Beorn-TBW","cut":{"Tom, Bert, and William":1},"add":{"Beorn the Fierce|HOB":1}},
+ {"name":"B3 Necklace-Howl","cut":{"Reverent Howl":1},"add":{"Necklace of Girion|HOC":1}},
+ {"name":"B4 Beorn+Necklace","cut":{"Tom, Bert, and William":1,"Reverent Howl":1},"add":{"Beorn the Fierce|HOB":1,"Necklace of Girion|HOC":1}}],
+ "X Y2c":[
+ {"name":"B5 LTR+Beorn-TBW","cut":{"Tom, Bert, and William":1},"add":{"Beorn the Fierce|HOB":1}}],
+ "X EL0 base":[
+ {"name":"L1 Elves+Beorn","cut":{"Boughside Wanderers":1},"add":{"Beorn the Fierce|HOB":1}},
+ {"name":"L2 Elves+Necklace","cut":{"Down in the Valley":1},"add":{"Necklace of Girion|HOC":1}},
+ {"name":"L3 Elves+Beorn+Necklace","cut":{"Boughside Wanderers":1,"Down in the Valley":1},"add":{"Beorn the Fierce|HOB":1,"Necklace of Girion|HOC":1}}],
+ "X DQ0 owned Oin+Spark":[
+ {"name":"H1 DQ0+CursedHalls","cut":{"Mountain":1},"add":{"Dragon-Cursed Halls|HOC":1}}]}
