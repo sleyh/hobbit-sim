@@ -1,0 +1,13 @@
+{"X GO0 base":[
+ {"name":"GC1 GftT+Smite","cut":{"Gnashing of Teeth":1,"Tidings of War":1},"add":{"Go for the Throat|LTC":1,"Smite the Deathless":1}},
+ {"name":"GC2 GftT+Smite+FFF","cut":{"Gnashing of Teeth":1,"Tidings of War":1,"Gollum the Abandoned":1},"add":{"Go for the Throat|LTC":1,"Smite the Deathless":1,"Fear, Fire, Foes!":1}}],
+"X EV0 base":[
+ {"name":"EM1 2Mystic","cut":{"Warg Tactics":2},"add":{"Elvish Mystic|LTC":2}},
+ {"name":"EM2 +Archdruid","cut":{"Warg Tactics":2,"Silvan Reveler":1},"add":{"Elvish Mystic|LTC":2,"Elvish Archdruid|LTC":1}},
+ {"name":"EM3 +Lignify","cut":{"Warg Tactics":2,"Silvan Reveler":1,"Enchanted River's Grasp":1},"add":{"Elvish Mystic|LTC":2,"Elvish Archdruid|LTC":1,"Lignify|LTC":1}},
+ {"name":"EM4 +Warmaster","cut":{"Warg Tactics":2,"Silvan Reveler":1,"Enchanted River's Grasp":1,"Boughside Wanderers":1},"add":{"Elvish Mystic|LTC":2,"Elvish Archdruid|LTC":1,"Lignify|LTC":1,"Elvish Warmaster|LTC":1}}],
+"X HU0 base":[
+ {"name":"HA Swords+Jailer","cut":{"Riddles in the Dark":1,"Uncover the Moon-Letters":1},"add":{"Swords to Plowshares|LTC":1,"Palace Jailer|LTC":1}},
+ {"name":"HB +Path","cut":{"Riddles in the Dark":1,"Uncover the Moon-Letters":1,"Uneasy Partings":1},"add":{"Swords to Plowshares|LTC":1,"Palace Jailer|LTC":1,"Path to Exile|LTC":1}},
+ {"name":"HC +Anthem","cut":{"Riddles in the Dark":1,"Uncover the Moon-Letters":1,"Uneasy Partings":1,"Wizard's Staff":1},"add":{"Swords to Plowshares|LTC":1,"Palace Jailer|LTC":1,"Path to Exile|LTC":1,"Marshal's Anthem|LTC":1}},
+ {"name":"HD +Mentor","cut":{"Riddles in the Dark":1,"Uncover the Moon-Letters":1,"Uneasy Partings":1,"Wizard's Staff":2},"add":{"Swords to Plowshares|LTC":1,"Palace Jailer|LTC":1,"Path to Exile|LTC":1,"Marshal's Anthem|LTC":1,"Mentor of the Meek|LTC":1}}]}
